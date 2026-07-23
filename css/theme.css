@@ -1,0 +1,38 @@
+/* Muted botanical palette: sage and blush replace the original saturated accents. */
+:root {
+  --ink: #26352e;
+  --blue: #607a68;
+  --lime: #c7d8b5;
+  --coral: #d99a9e;
+  --paper: #fbf9f5;
+  --muted: #6c766e;
+}
+
+.hero {
+  background: linear-gradient(120deg, #fbf9f5 55%, #e8efe5);
+}
+
+.about-section,
+footer {
+  background: #26352e;
+}
+
+.experience-section { background: #f0f1eb; }
+.education-section { background: #f3dadd; }
+.education-grid { background: #caaeb2; border-color: #caaeb2; }
+.education-card { background: #f3dadd; }
+.contact-section { background: #607a68; }
+
+.project-blue { background: #607a68; }
+.project-lime { background: #c7d8b5; }
+.btn-primary { background: #607a68; border-color: #607a68; }
+.btn-primary:hover { background: #526a5a; border-color: #526a5a; }
+.btn-light { color: #526a5a; }
+
+/* A lightweight custom cursor that complements the software portfolio theme. */
+body,
+a,
+button,
+[role="button"] {
+  cursor: url("../assets/laptop-cursor.svg") 16 16, auto;
+}
