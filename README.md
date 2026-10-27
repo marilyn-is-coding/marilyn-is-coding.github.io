@@ -1,6 +1,6 @@
 # Marilyn Nguyen Portfolio
 
-A responsive, one-page CV and portfolio site built with HTML5, Bootstrap 5, custom CSS, and vanilla JavaScript.
+A draft portfolio site built as part of an attended workshop on how to make a website using AI prompting
 
 ## Run locally
 
